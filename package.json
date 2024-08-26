@@ -1,0 +1,27 @@
+{
+  "name": "random-str-msg-imm",
+  "version": "1.0.0",
+  "description": "random string messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:EMVIM/random-str-msg-imm.git"
+  },
+  "keywords": [],
+  "author": "Iver Misericordia <ivermmm72506@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EMVIM/random-str-msg-imm/issues"
+  },
+  "homepage": "https://github.com/EMVIM/random-str-msg-imm#readme",
+  "bin": {
+    "random-str-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
